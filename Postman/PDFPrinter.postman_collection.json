@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "2f33f40a-12fc-4687-9622-691f4a9b58d3",
+		"name": "PDFPrinter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PDFPrint",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"PageObjects\":[\r\n\t\t{\r\n\t\t\t\"FileName\": \"google\",\r\n\t\t\t\"Url\": \"https://www.google.nl\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"FileName\": \"nu_nl\",\r\n\t\t\t\"Url\": \"https://www.nu.nl\"\r\n\t\t}\r\n\t]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/PdfPrintFunction",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"PdfPrintFunction"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
