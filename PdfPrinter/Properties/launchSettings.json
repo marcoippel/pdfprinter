@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "PdfPrinter": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 32185,
+      "useSSL": false
+    }
+  }
+}
